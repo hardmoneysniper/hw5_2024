@@ -1,3 +1,5 @@
+/* header and animation */
+
 header {
     display: flex;
     flex-direction: column;
@@ -22,6 +24,8 @@ header {
     animation-timing-function: ease-in-out;
 }
 
+/* regular (mobile) view */
+
 body {
   font-family: 'Poppins', serif;
   background-image: url('../images/concrete_seamless.png');
@@ -33,6 +37,7 @@ body {
   flex-direction: column;
 }
 
+/* keeps the color same after visit */
 .nav_links a:visited {
   color: blue;
 }
@@ -75,6 +80,8 @@ body {
     width: 300px;
 }
 
+/* 900 px above (larger viewport) */
+
 @media only screen and (min-width: 900px) {
     header {
         display: flex;
@@ -113,11 +120,15 @@ body {
     }
 }
 
+/* reduced motion */
+
 @media (prefers-reduced-motion: reduce) {
     #logo {
         animation: none;
     }
 }
+
+/* print viewport */
 
 @media print {
     body {
