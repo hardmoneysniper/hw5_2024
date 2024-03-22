@@ -7,7 +7,7 @@ body{
   header{
     background: #fff;
     border-bottom: 3px solid #50C7C7;
-    margin-bottom:20px
+    margin-bottom:20px;
   }
   
   h1{
@@ -106,4 +106,6 @@ body{
     text-align: center;
   }
 
-  
+
+
+
